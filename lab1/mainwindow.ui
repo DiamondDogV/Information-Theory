@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2400</width>
+    <height>1200</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>804</width>
+    <height>436</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(160, 0, 70);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="pteMessage">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>130</y>
+      <width>2161</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbFileRead">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>2161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>READ THE FILE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lDecimalKey">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>520</y>
+      <width>441</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;</string>
+    </property>
+    <property name="text">
+     <string>KEY FOR DECIMAL:</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="pteDecimalKey">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>520</y>
+      <width>440</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lVigenereKey">
+    <property name="geometry">
+     <rect>
+      <x>1360</x>
+      <y>520</y>
+      <width>441</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;</string>
+    </property>
+    <property name="text">
+     <string>KEY FOR VIGENERE:</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="pteVigenereKey">
+    <property name="geometry">
+     <rect>
+      <x>1840</x>
+      <y>520</y>
+      <width>440</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbDecimalCipher">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>610</y>
+      <width>901</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>CIPHER WITH DECIMAL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbVigenereCipher">
+    <property name="geometry">
+     <rect>
+      <x>1360</x>
+      <y>610</y>
+      <width>921</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>CIPHER WITH VIGENERE</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="pteCipherText">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>710</y>
+      <width>2161</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbFileWrite">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>1080</y>
+      <width>2161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>WRITE THE FILE</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
